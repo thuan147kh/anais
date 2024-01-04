@@ -1,0 +1,48 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the background image */
+.background-image {
+  background-image: url("img/poster.jpg");
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  border-radius: 10px; /* Bo tròn góc của hình ảnh */
+}
+
+/* Style the CTA button */
+.cta-button {
+  font-style: italic;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px; /* Bo tròn góc của nút CTA */
+  background-color: #e9451c;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+  margin-left: 65%;
+  margin-top: 50%;
+}
+
+/* Hover effect for the CTA button */
+.cta-button:hover {
+  background-color: #1db725;
+}
